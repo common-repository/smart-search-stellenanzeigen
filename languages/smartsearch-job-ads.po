@@ -1,0 +1,34 @@
+# Translation of Plugin - Stellenanzeigen
+
+msgid "How to use this plugin"
+msgstr "So nutzt du dieses Plugin"
+
+msgid "Please select a region"
+msgstr "Wählen Sie zuerst die Region aus"
+
+msgid "Search for jobs"
+msgstr "Job suchen"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Searchradius"
+msgstr "Suchradius"
+
+msgid "Zipcode"
+msgstr "Postleitzahl"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Select region"
+msgstr "Region"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Number of Ads shown"
+msgstr "%d Stellenanzeigen"
+
+msgid "Search Job"
+msgstr "Search Job"

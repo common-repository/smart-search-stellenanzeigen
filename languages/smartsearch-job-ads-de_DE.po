@@ -1,0 +1,61 @@
+# Translation of Plugin - Stellenanzeigen
+
+msgid "How to use this plugin"
+msgstr "So nutzt du dieses Plugin"
+
+msgid "Please select a region"
+msgstr "Wählen Sie zuerst die Region aus"
+
+msgid "Search for jobs"
+msgstr "Job suchen"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Searchradius"
+msgstr "Suchradius"
+
+msgid "Zipcode"
+msgstr "Postleitzahl"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Select region"
+msgstr "Region"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Number of Ads shown"
+msgstr "%d Stellenanzeigen"
+
+msgid "Search Job"
+msgstr "Stellenanzeige suchen"
+
+msgid "Name of the company"
+msgstr "Name des unternehmens"
+
+msgid "Name of the industry"
+msgstr "Name der Industrie"
+
+msgid "Joblist with filters"
+msgstr "Jobliste mit Filtern"
+
+msgid "Type of ad"
+msgstr "Typ der Anzeige"
+
+msgid "With this filter you can hide types"
+msgstr "Mit diesem Filter können typen ausgefiltert werden"
+
+msgid "With this filter you can hide initiative ads"
+msgstr "Mit diesem Filter können Initiativbewerbungen ausgefiltert werden"
+
+msgid "With this attribute you can customize the color that is displayed when the mouse hovers over the element"
+msgstr "Mit diesem Attribut kannst du die Farbe anpassen, die angezeigt wird, wenn die Maus über das Element fährt"
+
+msgid "Semicolon separated filters"
+msgstr "Semikolon getrennte Filter"
+
+msgid "For each filter you can append several filters to each other by semicolon"
+msgstr "Bei jeden Filter kannst du durch semikolon mehrere Filter an einander hängen"

@@ -1,0 +1,136 @@
+.stellenanzeigen__joblist ul.stellenanzeigen__joblist_list {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.stellenanzeigen__joblist_item {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #eee;
+  color: #000;
+
+  transition: 500ms all ease-in-out;
+}
+
+.stellenanzeigen__joblist_item:hover a {
+  color: #fff !important;
+}
+
+.stellenanzeigen__header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+h1.stellenanzeigen__headline {
+  margin-bottom: 50px;
+}
+
+h3.stellenanzeigen__headline {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.stellenanzeigen__joblist_item h3 {
+  font-size: clamp(1.125rem, 1.05vw + .867rem, 2.125rem);
+}
+.stellenanzeigen__joblist_item p {
+  font-size: clamp(0.925rem, 0.95vw + .167rem, 1.725rem);
+}
+.stellenanzeigen__joblist_item h3, .stellenanzeigen__joblist_item p {
+  color: inherit !important;
+}
+
+.stellenanzeigen__shortcode_viewer {
+  background-color: gray;
+  color: #fff;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+
+.stellenanzeigen__joblist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stellenanzeigen__joblist_item h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stellenanzeigen__joblist_item a {
+  display: block;
+  padding: 15px;
+  transition: 300ms all;
+  color: #000 !important;
+  text-decoration: none;
+}
+
+
+.stellenanzeigen__wrapper {
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-right: 20px;
+}
+
+
+.filter_jobs_container .filter_search input{
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.filter_jobs_container .filters{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.filter_jobs_container .filters .radius{
+  display: flex;
+  flex-direction: column;
+}
+
+.city .stellenanzeigen__loader{
+  width: 60px;
+}
+
+.stellenanzeigen__loader{
+  width: 200px;
+  display: flex;
+  margin: auto;
+}
+
+.filter_search #filter_jobs_search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: #24A5EF;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.filter_search #filter_jobs_search:hover{
+  opacity: 0.9;
+  transition: .3s ease;
+}
+
+
+.stellenanzeigen__form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 10px;
+}

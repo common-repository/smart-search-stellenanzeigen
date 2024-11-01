@@ -1,0 +1,133 @@
+.stellenanzerigen__main_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.stellenanzerigen__sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stellenanzerigen__sidebar nav a {
+  font-size: 18px;
+}
+
+.stellenanzeigen__form_container {
+  margin-right: 2rem;
+}
+
+.stellenanzeigen__form_section {
+  margin-bottom: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.stellenanzeigen__form_section_label {
+  font-size: 18px;
+}
+
+.stellenanzeigen__form_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.stellenanzeigen__form_input:not([type="color"]) {
+  padding: 0.625rem;
+  border: 2px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.stellenanzeigen__form_input.hover_color {
+  flex: auto;
+}
+
+.stellenanzeigen__form_select {
+  padding: 0.625rem !important;
+  border: 2px solid #ccc !important;
+  border-radius: 0.25rem !important;
+  flex: 1 !important;
+  line-height: 1 !important;
+  max-width: none !important;
+}
+.stellenanzeigen__form_submit_section {
+  display: flex;
+  justify-content: flex-end;
+}
+.stellenanzeigen__form_submit_section input, .stellenanzeigen__modal_button_section button {
+  background-color: #36a0d6;
+  color: #fff;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.stellenanzerigen__sidebar a {
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+.stellenanzerigen__sidebar-nav-item {
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+
+.stellenanzerigen__sidebar-nav-item.active {
+  border-left: 3px solid #36a0d6;
+  color: #36a0d6;
+}
+
+.stellenanzeigen__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  transition: 500ms all ease-in-out;
+}
+
+.stellenanzeigen__modal-view {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stellenanzeigen__modal-shortcode-view {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  color: black;
+  border-radius: 0.25rem;
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+
+.stellenanzeigen__modal.is-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(15px);
+}
+
+.stellenanzeigen__modal_button_section {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+.stellenanzeigen__modal_button_section .is-success {
+  color: greenyellow;
+}
